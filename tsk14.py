@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 st.header("Credit card Fraud Detection")
-df = pd.read_csv('creditcard.csv')
+df = pd.read_csv('modelling_set.csv')
 st.dataframe(df)
 
 legit = df[df['Class'] == 0]
